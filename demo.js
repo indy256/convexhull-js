@@ -15,8 +15,8 @@ function draw() {
     var n = 10;
     for (var i = 0; i < n; i++) {
         points[i] = {
-            x: Math.floor(100 * (Math.random() - 0.5)),
-            y: Math.floor(100 * (Math.random() - 0.5))
+            x: Math.random() - 0.5,
+            y: Math.random() - 0.5
         }
     }
 
