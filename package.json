@@ -1,0 +1,31 @@
+{
+  "name": "covexhull-js",
+  "version": "1.0.0",
+  "description": "A high-performance JavaScript 2D convex hull library",
+  "homepage": "http://indy256.github.io/convexhull-js/",
+  "author": "Andrey Naumenko",
+  "keywords": [
+    "math",
+    "geometry",
+    "convex hull"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/indy256/convexhull-js.git"
+  },
+  "main": "convexhull.js",
+  "devDependencies": {
+    "benchmark": "^1.0.0",
+    "faucet": "0.0.1",
+    "jshint": "^2.6.3",
+    "tape": "^3.5.0"
+  },
+  "scripts": {
+    "test": "jshint convexhull.js | faucet"
+  },
+  "jshintConfig": {
+    "quotmark": "single",
+    "trailing": true,
+    "unused": true
+  }
+}
