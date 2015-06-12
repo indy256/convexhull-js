@@ -1,5 +1,5 @@
 {
-  "name": "covexhull-js",
+  "name": "convexhull-js",
   "version": "1.0.0",
   "description": "A high-performance JavaScript 2D convex hull library",
   "homepage": "http://indy256.github.io/convexhull-js/",
