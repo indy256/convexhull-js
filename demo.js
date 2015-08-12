@@ -92,6 +92,5 @@ draw();
 
 var elements = document.getElementsByTagName("input");
 for (var i = 0; i < elements.length; i++) {
-    elements[i].onchange = draw;
     elements[i].oninput = draw;
 }
